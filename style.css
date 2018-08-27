@@ -1,0 +1,65 @@
+/*
+Utiliser une police personnalisée via @font-face
+*/
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff2') format('woff2'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+/*
+Appliquer une image de fond à la page
+*/
+body
+	{
+		background-image: url("fond.png");
+		width: 50%;
+		margin-left: 20%;
+	}
+
+	
+/*
+Utiliser une police personnalisée via @font-face
+Définir une ombre à un élément
+*/
+h1, .accroche
+	{
+		text-align: center ;
+		font-family: 'cac_champagneregular', Arial, serif;
+		text-shadow: 2px 2px 4px black;
+	}
+
+.accroche
+	{
+		font-size: 1.5em ;
+	}
+	
+.photo
+
+	{
+		float: right ;
+		padding-right: 20% ;
+		margin-top: 2%;
+	}
+
+/*
+Changer la couleur d'un des textes
+*/
+.annee
+	{
+		color: rgb(95, 171, 207);
+	}
+
+/*
+Définir une bordure à un élément
+*/
+h2
+	{
+		border : solid 2px black;
+		margin-top: 10%;
+		display: inline ;
+	}
