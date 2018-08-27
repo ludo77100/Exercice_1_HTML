@@ -16,7 +16,7 @@ Appliquer une image de fond à la page
 */
 body
 	{
-		background-image: url("fond.png");
+		background-image: url("ressource/img/fond.png");
 		width: 50%;
 		margin-left: 20%;
 	}
