@@ -11,39 +11,66 @@ Utiliser une police personnalisée via @font-face
          url('ressource/police/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
 }
 
-body
-	{
-		background-image: url("ressource/img/fond.png");
-		width: 50%;
-		margin-left: 20%;
-		width: 40%;
-		margin: auto;
-	}
-	
+body 
+{
+	padding: 0;
+	margin: 0;
+	background-image: url("ressource/img/fond.png");
+}
+
+
 h1, .accroche
 	{
 		text-align: center ;
 		font-family: 'cac_champagneregular', Arial, serif;
 		text-shadow: 2px 2px 4px black;
-		border : solid 2px black;
+	}
+	
+.accroche
+	{
+		font-size: 1.5em ;
 	}
 
-#lisere
-{
-	display: flex;
-	width: 10%;
-	height: 100%;
-	background-color: black;
-	border : solid 2px black;
-	position: relative ;
-}
+.photo
+	{
+		display: flex;
+		flex-direction: align;
+		margin-top: 10%;
+	}
+	
+#nom_accroche
+	{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
 
-header{
-	display: flex;
-	border : solid 2px black;
-}
+aside
+	{
+		margin: 0px;
+		width: 3%;
+		height: 100%;
+		background-color: green;
+		opacity: 0.75;
+		position: absolute ;
+	}
 
-section{
-	display: flex;
-	border : solid 2px black;
-}
+header
+	{
+		display: flex;
+		margin-left: 20%;
+	}
+
+section
+	{
+		display: flex;
+		flex-direction: align;
+		margin-left: 10%;
+	}
+
+#experience, #competence, #formation
+	{
+		margin: auto;
+		margin-top: 2%;	
+		width: 25%;
+	}
